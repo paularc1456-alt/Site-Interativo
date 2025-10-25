@@ -1,0 +1,109 @@
+site1.css
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E6E6FA;
+  color: #4B0082;
+  scroll-behavior: smooth;
+}
+ 
+/* NAVBAR */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.nav-link {
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: Black;
+}
+ 
+/* CAROUSEL */
+#carousel h2 {
+  font-weight: 600;
+}
+.carousel-item img {
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  width: 50%;
+
+}
+.carousel-caption h5 {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+ 
+/* FAQ */
+#faq {
+  background-color: white;
+}
+#faq h2 {
+  font-weight: 600;
+  color: black;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #9370DB;
+  color: white;
+}
+ 
+/* CONTATO */
+#contato {
+  background: linear-gradient(135deg, #9370DB, #9932CC);
+  color: white;
+}
+#contato h2 {
+  font-weight: 600;
+}
+#contato .btn {
+  background-color: white;
+  color: #9370DB;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+#contato .btn:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+ 
+/* MODAL */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.modal-header {
+  background-color: #0d6efd;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.modal-footer .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+.modal-footer .btn-primary:hover {
+  background-color: #0b5ed7;
+}
+ 
+/* RODAPÉ */
+footer {
+  background-color: #212529;
+  color: #ccc;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+footer p span {
+  color: #9370DB;
+  font-weight: 600;
+}
+ 
